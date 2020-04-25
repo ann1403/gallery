@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 15px 3px black;
+    /* opacity: 0.4; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.photo {
+    background-color: brown;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.photo:hover {
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0);
+    transform: rotate(2deg);
+}
+
+.img1 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img7 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img8 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img9 {
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    color: #000;
+}
+
+p {
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
+}
+
+
+/* СТИЛЬ display - відповідає за відображення елементів\блоків на сторінців display: block;
+- блочні елементи,
+кожен з нового рядочку. 
+display: inline;
+display: none;
+display: flex; - гнучка сітка, ми зможемо розташовувтаи блоки як захочемо;
+
+Псевдокласи - ті, які з'являються, лише при потребі, тобто не відображені одразу.
+:hover  */
+
+ДЗ: 1. Інтерактив для кожної фотки окремо. 2. Інтерактив до заголовку і підпису. 2
